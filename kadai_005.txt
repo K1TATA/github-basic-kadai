@@ -1,0 +1,16 @@
+PS CTESTgit_challenge git init 
+Initialized empty Git repository in CTESTgit_challenge.git
+PS CTESTgit_challenge git add hello_world
+fatal pathspec 'hello_world' did not match any files
+PS CTESTgit_challenge git add hello_world.txt
+PS CTESTgit_challenge git commit -m 最初のコミット
+[main (root-commit) 9ad3d47] 最初のコミット
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt        
+PS CTESTgit_challenge git add hello_world.txt
+PS CTESTgit_challenge git commit -m ”2回目のコミット”
+[main a5ffe88] 2回目のコミット
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS CTESTgit_challenge git log --oneline
+a5ffe88 (HEAD - main) 2回目のコミット
+9ad3d47 最初のコミット
